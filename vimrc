@@ -11,5 +11,7 @@ set splitright
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 set tabstop=4
-set softtabstop=0 noexpandtab
+set softtabstop=0 expandtab
 set shiftwidth=4
+
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*/bower/*,*/node_modules/*
