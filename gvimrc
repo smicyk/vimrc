@@ -15,3 +15,9 @@ set softtabstop=0 expandtab
 set shiftwidth=4
 
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*/bower/*,*/node_modules/*
+                                                                     
+set number                                                           
+set nowrap                                                           
+set noundofile                                                       
+set nobackup                                                         
+set nowritebackup                                                    

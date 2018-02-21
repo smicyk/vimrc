@@ -18,3 +18,6 @@ set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*/bower/*,*/node_modules/*
 
 set number
 set cursorline
+set noundofile                                                       
+set nobackup                                                         
+set nowritebackup                                                    
