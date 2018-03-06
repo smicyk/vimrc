@@ -1,4 +1,16 @@
 execute pathogen#infect()
+syntax on
+filetype plugin indent on
+
+let g:airline_theme='solarized'
+
+set backgroud=dark
+colorscheme solarized
+
+set guioptions-=T
+set guioptions-=m
+
+set lines=45 columns=160
 
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
@@ -8,16 +20,20 @@ nnoremap <C-H> <C-W><C-H>
 set splitbelow
 set splitright
 
-set runtimepath^=~/.vim/bundle/ctrlp.vim
-
 set tabstop=4
 set softtabstop=0 expandtab
 set shiftwidth=4
 
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*/bower/*,*/node_modules/*
-                                                                     
-set number                                                           
-set nowrap                                                           
-set noundofile                                                       
-set nobackup                                                         
-set nowritebackup                                                    
+
+set number
+set relativenumber
+set nowrap
+set noundofile
+set nobackup
+set nowritebackup
+
+set cursorline
+set cursorcolumn
+
+set showcmd
