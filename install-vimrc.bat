@@ -1,4 +1,4 @@
 @echo off
 
-cp ./_vimrc ~/_vimrc
-cp ./_gvimrc ~/_gvimrc
+mklink %HOME%\_vimrc %HOME%\.vim\_vimrc
+mklink %HOME%\_gvimrc %HOME%\.vim\_gvimrc

@@ -1,3 +1,6 @@
+" needed in windows
+set runtimepath^=$HOME/.vim
+
 execute pathogen#infect()
 
 syntax on
