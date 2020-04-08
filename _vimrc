@@ -1,4 +1,5 @@
 execute pathogen#infect()
+
 syntax on
 filetype plugin indent on
 
@@ -29,6 +30,5 @@ set nobackup
 set nowritebackup
 
 set cursorline
-set cursorcolumn
 
 set showcmd

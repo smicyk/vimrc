@@ -1,9 +1,10 @@
 execute pathogen#infect()
+
 syntax on
 filetype plugin indent on
 
 set background=dark
-colorschema solarized
+colorscheme solarized
 
 let g:airline_theme='solarized'
 
@@ -29,6 +30,5 @@ set nobackup
 set nowritebackup
 
 set cursorline
-set cursorcolumn
 
 set showcmd

@@ -1,11 +1,12 @@
 execute pathogen#infect()
+
 syntax on
 filetype plugin indent on
 
-let g:airline_theme='solarized'
-
-set backgroud=dark
+set background=dark
 colorscheme solarized
+
+let g:airline_theme='solarized'
 
 set guioptions-=T
 set guioptions-=m
@@ -34,6 +35,5 @@ set nobackup
 set nowritebackup
 
 set cursorline
-set cursorcolumn
 
 set showcmd
