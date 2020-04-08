@@ -1,5 +1,5 @@
 # VIMRC
-Simple vim configuration
+Simple vim configuration (Vim 8+)
 
 ## INSTALL
 
