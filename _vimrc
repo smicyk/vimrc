@@ -33,5 +33,6 @@ set nobackup
 set nowritebackup
 
 set cursorline
-
 set showcmd
+set smartcase
+set hlsearch
